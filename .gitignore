@@ -1,0 +1,39 @@
+# 依存パッケージ（apps と packages の中も含む）
+node_modules/
+
+# 環境変数。example だけ残して、必要なキーの見本にする
+.env
+.env.*
+!.env.example
+
+# Cloudflare Workers のローカル用シークレットとローカル D1
+.dev.vars
+.dev.vars.*
+.wrangler/
+
+# Next.js のビルド結果
+.next/
+out/
+
+# そのほかのビルド結果
+dist/
+build/
+
+# Vercel がローカルに作るプロジェクト情報
+.vercel
+
+# TypeScript の増分コンパイル用キャッシュ
+*.tsbuildinfo
+
+# テストの出力（Vitest / Playwright）
+coverage/
+test-results/
+playwright-report/
+blob-report/
+
+# ログ
+*.log
+.pnpm-debug.log*
+
+# macOS
+.DS_Store
