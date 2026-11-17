@@ -12,7 +12,7 @@
 ### バックエンド
 
 - Hono
-- Drizzle
+- D1, Drizzle
 - Better Auth
 
 ## DB設計案
