@@ -8,6 +8,7 @@
 - TailwindCSS
 - shadcn/ui
 - dnd kit
+  - https://dndkit.com/react/quickstart/
 
 ### バックエンド
 
